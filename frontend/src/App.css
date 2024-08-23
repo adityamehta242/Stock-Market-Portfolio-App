@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d9d7ca;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #1f454d;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #3c8d93;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #3c8d93;
+  color: #d9d7ca;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #1f454d;
+  color: #d9d7ca;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3c8d93;
+}
+
+nav {
+  background-color: #1f454d;
+  padding: 15px 0;
+}
+
+nav a {
+  color: #d9d7ca;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a.active {
+  color: #3c8d93;
+}
+
+nav a:hover {
+  color: #3c8d93;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #1f454d;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3c8d93;
+  box-shadow: 0 0 5px rgba(60, 141, 147, 0.5);
+  outline: none;
+}
